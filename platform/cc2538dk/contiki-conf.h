@@ -146,7 +146,7 @@ typedef uint32_t rtimer_clock_t;
 #endif
 
 #ifndef SLIP_ARCH_CONF_USB
-#define SLIP_ARCH_CONF_USB          0 /**< SLIP over UART by default */
+#define SLIP_ARCH_CONF_USB          1 /**< SLIP over UART by default */
 #endif
 
 #ifndef CC2538_RF_CONF_SNIFFER_USB
