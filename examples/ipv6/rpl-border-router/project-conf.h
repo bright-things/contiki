@@ -39,10 +39,6 @@
 #define QUEUEBUF_CONF_NUM          4
 #endif
 
-#ifndef UIP_CONF_BUFFER_SIZE
-#define UIP_CONF_BUFFER_SIZE    140
-#endif
-
 #ifndef UIP_CONF_RECEIVE_WINDOW
 #define UIP_CONF_RECEIVE_WINDOW  60
 #endif
@@ -50,5 +46,9 @@
 #ifndef WEBSERVER_CONF_CFS_CONNS
 #define WEBSERVER_CONF_CFS_CONNS 2
 #endif
+
+#define SLIP_ARCH_CONF_ENABLED 1
+#define SLIP_ARCH_CONF_USB 1
+#define USB_SERIAL_CONF_ENABLE 1
 
 #endif /* PROJECT_ROUTER_CONF_H_ */
