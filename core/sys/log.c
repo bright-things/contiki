@@ -33,7 +33,6 @@
  *
  */
 
-#include <unistd.h>
 #include <string.h>
 
 #include "net/ip/uip.h"
